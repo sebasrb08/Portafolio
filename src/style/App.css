@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import '@fontsource/oleo-script';
+@import '@fontsource-variable/montserrat';
+@import '@fontsource/poppins';
+@import '@fontsource-variable/inter';
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 2rem;
+    background-color: #1A1A1A;
+    color: #fff;
+}
+@theme {
+    --font-oleo: 'Oleo Script', system-ui;
+    --font-montserrat: 'Montserrat Variable', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-inter: 'Inter Variable', sans-serif;
+}
+  
