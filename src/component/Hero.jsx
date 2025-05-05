@@ -5,7 +5,7 @@ export function Hero(){
         
         <section id="inicio" className="h-screen flex justify-center items-center flex-col space-y-6 mt-20 text-center">
             <div className="rounded-full overflow-hidden  w-40">
-                <img src="/public/foto_perfil.jpg" alt="Foto de perfil" />
+                <img src="/foto_perfil.jpg" alt="Foto de perfil" />
             </div>
             <div>
                 <h2 className="text-4xl md:text-6xl font-bold font-poppins">Sebastian Rueda</h2>
