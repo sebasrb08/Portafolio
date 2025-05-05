@@ -1,3 +1,5 @@
+import TerminalIcon from '@mui/icons-material/Terminal';
+
 export function Hero(){
     return(
         
@@ -7,7 +9,7 @@ export function Hero(){
             </div>
             <div>
                 <h2 className="text-4xl md:text-6xl font-bold font-poppins">Sebastian Rueda</h2>
-                <p className=" text-sky-400 text-xl md:text-2xl font-medium mt-3 ">Full Stack 🧙‍♂️</p>
+                <p className=" text-sky-400 text-xl md:text-2xl font-medium mt-3 ">Full Stack <TerminalIcon/></p>
             </div>
             <div className="mt-4 max-w-2xl">
                 <p className="font-inter">Transformo ideas en código y problemas en soluciones. 
@@ -16,7 +18,9 @@ export function Hero(){
                 </p>
             </div>
             <div>
-                <button className="border-1 border-sky-400 p-2 rounded-3xl hover:bg-sky-400 px-8 font-montserrat">Contactame</button>
+            <a href='#contact'>
+                <button className="border-1 border-sky-400 p-2 rounded-3xl hover:bg-sky-400 px-8 font-montserrat cursor-pointer">Contactame</button>
+            </a>
             </div>
         </section>
     )

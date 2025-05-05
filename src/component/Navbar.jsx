@@ -17,9 +17,11 @@ export function Navbar(){
                     ))}
                 </ul>
                 <ul className="hidden md:flex basis-1/2 justify-center">
-                    <button className="border-1 border-sky-400 p-2 rounded-lg hover:bg-sky-400">
-                        <li className="font-montserrat">Contactame</li>
-                    </button>
+                    <a href="#contact">
+                        <button className="border-1 border-sky-400 p-2 rounded-lg hover:bg-sky-400 cursor-pointer">
+                            <li className="font-montserrat">Contactame</li>
+                        </button>
+                    </a>
                 </ul>
         </nav>
     )
